@@ -20,14 +20,10 @@
         "zustand": "^4.4.1"
     },
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
         "dev": "next dev",
-        "build-next": "next build",
-        "start-next": "next start",
-        "lint-next": "next lint"
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
     },
     "eslintConfig": {
         "extends": [
