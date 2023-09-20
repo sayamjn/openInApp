@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import { GrUserAdd } from "react-icons/gr";
 import UserAdd from "./UserAdd";

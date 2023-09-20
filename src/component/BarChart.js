@@ -1,4 +1,3 @@
-"use client"
 import { Bar } from "react-chartjs-2";
 
 
