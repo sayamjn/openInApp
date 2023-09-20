@@ -1,4 +1,3 @@
-"use client"
 import Authprovider from "@/component/Authprovider/Authprovider";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
