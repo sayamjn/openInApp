@@ -1,4 +1,4 @@
-"use client"
+import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 
 
