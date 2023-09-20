@@ -1,11 +1,10 @@
-"use client"
 import Dashboard from "@/component/Dashboard";
 import Singin from "@/component/SignIn";
 import { useSession } from "next-auth/react";
-import React, { useEffect } from "react";
+import React from "react";
 import { BeatLoader } from "react-spinners";
 
-const page = () => {
+const Page = () => {
   const session = useSession();
   
   const renderContent = () => {
@@ -35,4 +34,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
