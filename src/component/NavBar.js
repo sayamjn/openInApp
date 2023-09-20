@@ -13,7 +13,7 @@ const NavBar = () => {
     if (session.status === "authenticated") {
       setImage(session.data.user.image);
     }
-  }, [session.status]);
+  }, [session.status,session.data.user.image]);
 
   const toggleDropdown = () => {
     setIsDropdownOpen((prev) => !prev);
