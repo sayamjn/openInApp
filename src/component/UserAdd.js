@@ -33,9 +33,6 @@ const UserAdd = ({ handleClick }) => {
             <RxCross2 className="w-3 h-3" />
           </button>
         </div>
-
-        {/* Buttons to change between basic and Contact information  */}
-        {/* Basic */}
         <div className="flex justify-between w-full mt-5">
           <div
             className={`text-center  w-full p-2 cursor-pointer font-bold ${
@@ -61,7 +58,6 @@ const UserAdd = ({ handleClick }) => {
 
         {!nextForm ? (
           <>
-            {/*input forms*/}
             <div className=" w-full mt-5">
               <form>
                 <div className="mt-2">
@@ -70,7 +66,7 @@ const UserAdd = ({ handleClick }) => {
                   </label>
                   <br />
                   <input
-                    placeholder="eg. Aditya"
+                    placeholder="eg. Sayam"
                     type="text"
                     id="name"
                     name="name"
@@ -86,7 +82,7 @@ const UserAdd = ({ handleClick }) => {
                   </label>
                   <br />
                   <input
-                    placeholder="eg. 1125@gmail.com"
+                    placeholder="eg. sayamjain0708@gmail.com"
                     id="email"
                     type="text"
                     name="email"
@@ -103,7 +99,7 @@ const UserAdd = ({ handleClick }) => {
                   <br />
                   <input
                     type="number"
-                    placeholder="eg. 911 251 2124"
+                    placeholder="eg. 940 268 2526"
                     id="phone"
                     name="phone"
                     value={phone}
