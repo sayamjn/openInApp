@@ -1,6 +1,5 @@
 import Authprovider from "@/component/Authprovider/Authprovider";
 import "./globals.css";
-import { Inter } from "next/font/google";
 import { Montserrat } from "next/font/google";
 
 const montserrat = Montserrat({
